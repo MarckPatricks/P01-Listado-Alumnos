@@ -31,13 +31,13 @@ class MainActivity : AppCompatActivity() {
         btnAgregar.setOnClickListener {
             // Agregar un nuevo alumno a la lista
 
-            alumnos.add(Alumno("Juan", "123456", R.drawable.image, "juan@ejemplo.com"))
+            alumnos.add(Alumno("Arboleya", "123456", R.drawable.image, "arboleya@ejemplo.com"))
             adapter.notifyDataSetChanged()
-            alumnos.add(Alumno("Pedro", "654321", R.drawable.cell, "pedro@ejemplo.com"))
+            alumnos.add(Alumno("Mariana", "654321", R.drawable.cell, "mariana@ejemplo.com"))
             adapter.notifyDataSetChanged()
-            alumnos.add(Alumno("Maria", "987654", R.drawable.a21, "maria@ejemplo.com"))
+            alumnos.add(Alumno("Lilith", "987654", R.drawable.a21, "lilith@ejemplo.com"))
             adapter.notifyDataSetChanged()
-            alumnos.add(Alumno("Jose", "456789", R.drawable.a17, "jose@ejemplo.com"))
+            alumnos.add(Alumno("Jade", "456789", R.drawable.a17, "jade@ejemplo.com"))
         }
     }
 }
